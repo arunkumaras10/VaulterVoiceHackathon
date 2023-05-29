@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/checkBalanceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Check Balance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/lastTenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="57dp"
+        android:text="Transaction History"
+        app:layout_constraintStart_toStartOf="@+id/checkBalanceButton"
+        app:layout_constraintTop_toBottomOf="@+id/checkBalanceButton" />
+
+    <Button
+        android:id="@+id/updateUserDetailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="46dp"
+        android:text="Update User Details"
+        app:layout_constraintStart_toStartOf="@+id/lastTenButton"
+        app:layout_constraintTop_toBottomOf="@+id/lastTenButton" />
+
+    <Button
+        android:id="@+id/sendMoneyMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="45dp"
+        android:text="Send Money"
+        app:layout_constraintStart_toStartOf="@+id/updateUserDetailsButton"
+        app:layout_constraintTop_toBottomOf="@+id/updateUserDetailsButton" />
+
+    <Button
+        android:id="@+id/receiveMoneyMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="52dp"
+        android:text="Receive Money"
+        app:layout_constraintStart_toStartOf="@+id/sendMoneyMenuButton"
+        app:layout_constraintTop_toBottomOf="@+id/sendMoneyMenuButton" />
+
+    <include
+        layout="@layout/activity_base"
+        tools:layout_editor_absoluteX="-113dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

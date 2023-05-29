@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "163349957407",
+    "project_id": "rpbank-d59c2",
+    "storage_bucket": "rpbank-d59c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163349957407:android:3e068112cd81d518c53e2a",
+        "android_client_info": {
+          "package_name": "com.kainosdub.rpbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163349957407-68c58729q287of2j6gsjamp11k599158.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkyKxqPthxzvdNUhAKpBw22lwwx16Sm_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163349957407-68c58729q287of2j6gsjamp11k599158.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

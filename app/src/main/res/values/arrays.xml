@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array
+        name="languages">
+        <item>English</item>
+        <item>தமிழ் (Tamil)</item>
+    </array>
+    <array
+        name="keys">
+        <item>--Select--</item>
+        <item>Full Name</item>
+        <item>Nickname</item>
+        <item>Username</item>
+        <item>Mobile number</item>
+        <item>PIN number</item>
+    </array>
+</resources>
